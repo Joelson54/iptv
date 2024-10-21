@@ -3,112 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-index.css">
     <title>Home - NxPlay Inspired</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #000;
-            color: white;
-        }
-
-        header {
-            display: flex;
-            justify-content: space-between;
-            padding: 20px;
-            background-color: rgba(0, 0, 0, 0.8);
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 10;
-        }
-
-        header img {
-            height: 50px;
-        }
-
-        header nav a {
-            color: white;
-            margin-left: 20px;
-            text-decoration: none;
-            font-size: 1rem;
-        }
-
-        .hero {
-            margin-top: 80px;
-            height: 80vh;
-            background-image: url('https://via.placeholder.com/1920x1080');
-            background-size: cover;
-            background-position: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-
-        .hero h1 {
-            font-size: 3rem;
-            margin-bottom: 20px;
-        }
-
-        .hero p {
-            font-size: 1.2rem;
-            margin-bottom: 40px;
-        }
-
-        .hero button {
-            padding: 15px 30px;
-            background-color: #e50914;
-            border: none;
-            color: white;
-            font-size: 1.2rem;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
-        .content {
-            padding: 40px 20px;
-        }
-
-        .section-title {
-            margin-bottom: 20px;
-            font-size: 1.8rem;
-        }
-
-        .movies {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-        }
-
-        .movie {
-            background-color: rgba(255, 255, 255, 0.1);
-            padding: 10px;
-            border-radius: 5px;
-            width: 200px;
-            text-align: center;
-        }
-
-        .movie img {
-            width: 100%;
-            border-radius: 5px;
-        }
-
-        .movie h3 {
-            font-size: 1.2rem;
-            margin-top: 10px;
-        }
-    </style>
 </head>
 <body>
-
     <header>
-        <img src="https://via.placeholder.com/150x50" alt="Logo">
+        <img src="logo.png" alt="Logo">
         <nav>
-            <a href="#">Início</a>
-            <a href="#">Filmes</a>
+            <a href="home.html">Início</a>
+            <a href="movies.html">Filmes</a>
             <a href="#">Séries</a>
             <a href="#">Minha Conta</a>
         </nav>
@@ -124,16 +27,20 @@
         <h2 class="section-title">Destaques</h2>
         <div class="movies">
             <div class="movie">
-                <img src="https://via.placeholder.com/200x300" alt="Filme 1">
+                <img src="img/alien.jpg" alt="Filme 1">
                 <h3>Filme 1</h3>
             </div>
             <div class="movie">
-                <img src="https://via.placeholder.com/200x300" alt="Filme 2">
+                <img src="img/asubstancia.jpg" alt="Filme 2">
                 <h3>Filme 2</h3>
             </div>
             <div class="movie">
-                <img src="https://via.placeholder.com/200x300" alt="Filme 3">
+                <img src="img/roboselvagem.jpg" alt="Filme 3">
                 <h3>Filme 3</h3>
+            </div>
+            <div class="movie">
+                <img src="img/azrael.jpg" alt="Filme 4">
+                <h3>Filme 4</h3>
             </div>
         </div>
     </div>
